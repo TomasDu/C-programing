@@ -2,7 +2,7 @@
 Lets assume that starting address of this memory is 1000 and ending address is 1019. Okay. Now I want to store an integer inside this memory and my assumption is that integer will maximum to maximum take two bytes of memory. That is, it will take two blocks of memory. 
 ![[pointers in c-20231227154832916.webp|425]]
 For storing an integer, I'm taking one variable `i` which is of integer type. Therefore it is capable of storing an integer and I'm assuming that it will take these two blocks.
-![[pointers in c-20231227155348280.webp|372]]
+!(da)[https://github.com/TomasDu/C-programing/blob/main/pointers%20in%20c-20231227161942055.webp]
 
 ---
 Pointer is a variable which is capable of storing the initial address of the object which it wants to point to. In this example, I'm assuming that I have a pointer which will point to this particular object `i`. And for this purpose, it will simply point to the base address or the initial address of this object which is 1002.
