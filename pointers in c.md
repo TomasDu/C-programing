@@ -28,7 +28,6 @@ int *nekojInt;      //points to int value
 char *nekjChar;     //points to chat value
 float *nekojFloat;  //points to float value
 ```
-![](https://github.com/TomasDu/C-programing/blob/main/pointers%20in%20c-20231227161942055.webp)
 
 ```
 BE CAREFULL
