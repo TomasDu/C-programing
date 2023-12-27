@@ -1,15 +1,17 @@
 ## Intro to pointers
 Lets assume that starting address of this memory is 1000 and ending address is 1019. Okay. Now I want to store an integer inside this memory and my assumption is that integer will maximum to maximum take two bytes of memory. That is, it will take two blocks of memory. 
-![[pointers in c-20231227154832916.webp|425]]
-For storing an integer, I'm taking one variable `i` which is of integer type. Therefore it is capable of storing an integer and I'm assuming that it will take these two blocks.
-![da](https://github.com/TomasDu/C-programing/blob/main/pointers%20in%20c-20231227161942055.webp)
 
+![](https://github.com/TomasDu/C-programing/blob/main/pointers%20in%20c-20231227154832916.webp)
+
+For storing an integer, I'm taking one variable `i` which is of integer type. Therefore it is capable of storing an integer and I'm assuming that it will take these two blocks.
+
+![](https://github.com/TomasDu/C-programing/blob/main/pointers%20in%20c-20231227155334539.webp)
 ---
 Pointer is a variable which is capable of storing the initial address of the object which it wants to point to. In this example, I'm assuming that I have a pointer which will point to this particular object `i`. And for this purpose, it will simply point to the base address or the initial address of this object which is 1002.
 
 Pointing to means it will simply store the base address or the initial address of the object. In this case it is variable `i`. Now, let me give you the definition of a pointer. Pointer is a special variable that is capable of storing some address. In our example, it is storing the base address of integer variable `i`.
 
-!()[pointers in c-20231227155654165.webp|330]
+![](https://github.com/TomasDu/C-programing/blob/main/pointers%20in%20c-20231227155640997.webp)
 
 ## syntax
 
@@ -26,9 +28,10 @@ int *nekojInt;      //points to int value
 char *nekjChar;     //points to chat value
 float *nekojFloat;  //points to float value
 ```
+![](https://github.com/TomasDu/C-programing/blob/main/pointers%20in%20c-20231227161942055.webp)
 
-```ad-warning
-title: be carefull
+```
+BE CAREFULL
 if your pointer will be pointing at a int variable type that pointer must have the same data_type
 
 ```
@@ -46,7 +49,8 @@ int *ptr;     //pinter that will be pointing to an int value
 *ptr = &x;    //points to the adress of x
 ```
 
-![[pointers in c-20231227161942055.webp]]
+![da](https://github.com/TomasDu/C-programing/blob/main/pointers%20in%20c-20231227161942055.webp)
+
 - x has the value 5 and its address is 1000 the pointer is at address 2000 and its value is the value that is stored at the memory location 1000. Simply put the pointer  points to the value of x.
 
 ## use cases
