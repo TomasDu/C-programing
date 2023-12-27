@@ -8,7 +8,8 @@ For storing an integer, I'm taking one variable `i` which is of integer type. Th
 Pointer is a variable which is capable of storing the initial address of the object which it wants to point to. In this example, I'm assuming that I have a pointer which will point to this particular object `i`. And for this purpose, it will simply point to the base address or the initial address of this object which is 1002.
 
 Pointing to means it will simply store the base address or the initial address of the object. In this case it is variable `i`. Now, let me give you the definition of a pointer. Pointer is a special variable that is capable of storing some address. In our example, it is storing the base address of integer variable `i`.
-![[pointers in c-20231227155654165.webp|330]]
+
+!()[pointers in c-20231227155654165.webp|330]
 
 ## syntax
 
