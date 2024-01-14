@@ -170,18 +170,18 @@ int sumOfDigitsAtOddPositions(int num) {
 int main() {
     int n;
 
-    // Input the number of elements
+    // kolku lementi vo arr
     printf("Enter the number of elements: ");
     scanf("%d", &n);
 
-    // Input array elements
+    // vnesvime elemnti vo arr
     int arr[n];
     printf("Enter the array elements:\n");
     for (int i = 0; i < n; i++) {
         scanf("%d", &arr[i]);
     }
 
-    // Calculate and print the sum of digits at odd positions for each number
+    
     printf("Sum of digits at odd positions:\n");
     for (int i = 0; i < n; i++) {
         int sum = sumOfDigitsAtOddPositions(arr[i]);
