@@ -154,14 +154,14 @@ printf("\nMin = %d, min/2 = %d   ", smallestNum, smallestNum / 2);
 
 int sumOfDigitsAtOddPositions(int num) {
     int sum = 0;
-    int position = 1; // Start from the least significant digit (position 1)
+    int position = 1;
 
     while (num > 0) {
-        if (position % 2 != 0) { // Check if the position is odd
-            sum += num % 10; // Add the least significant digit to the sum
+        if (position % 2 != 0) { 
+            sum += num % 10; 
         }
-        num /= 10; // Move to the next digit
-        position++; // Move to the next position
+        num /= 10; 
+        position++; 
     }
 
     return sum;
