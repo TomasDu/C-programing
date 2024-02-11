@@ -46,6 +46,5 @@ for (int i = 0; i < 5; i++) {
 
 If you iterate over 0, 1, 2, 3, 4, 5, then number[i] corresponds to numbers[0], numbers[1], numbers[2], and so on. In this case, the first five elements of the array 'numbers' would be printed, namely 1, 2, 3, 4, 5.
 
-```
+
 ako 'i' odit 0,1,2,3,4,5 togas number[i] e prvo numbers[0], numbers[1], numbers[2]... Vustvari se pecatet prvite 5 elementi na nizata numbers vo ovoj slucaj 1,2,3,4,5
-```
